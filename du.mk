@@ -14,10 +14,10 @@
 
 $(call inherit-product, device/mediatek/harmony/full_harmony.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Dirty Unicorn stuff.
+$(call inherit-product, vendor/du/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_harmony
+PRODUCT_NAME := du_harmony
 BOARD_VENDOR := Mediatek
 PRODUCT_DEVICE := harmony
 
